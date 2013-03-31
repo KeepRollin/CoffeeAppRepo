@@ -1,0 +1,14 @@
+C:\Users\Acer\Documents\Visual Studio 2010\WebSites\CoffeeApp\CoffeeApp.Domain\bin\Release\CoffeeStore.Domain.dll.config
+C:\Users\Acer\Documents\Visual Studio 2010\WebSites\CoffeeApp\CoffeeApp.Domain\bin\Release\CoffeeStore.Domain.dll
+C:\Users\Acer\Documents\Visual Studio 2010\WebSites\CoffeeApp\CoffeeApp.Domain\bin\Release\CoffeeStore.Domain.pdb
+C:\Users\Acer\Documents\Visual Studio 2010\WebSites\CoffeeApp\CoffeeApp.Domain\bin\Release\EntityFramework.dll
+C:\Users\Acer\Documents\Visual Studio 2010\WebSites\CoffeeApp\CoffeeApp.Domain\bin\Release\Moq.dll
+C:\Users\Acer\Documents\Visual Studio 2010\WebSites\CoffeeApp\CoffeeApp.Domain\bin\Release\Ninject.dll
+C:\Users\Acer\Documents\Visual Studio 2010\WebSites\CoffeeApp\CoffeeApp.Domain\bin\Release\EntityFramework.xml
+C:\Users\Acer\Documents\Visual Studio 2010\WebSites\CoffeeApp\CoffeeApp.Domain\bin\Release\Moq.pdb
+C:\Users\Acer\Documents\Visual Studio 2010\WebSites\CoffeeApp\CoffeeApp.Domain\bin\Release\Moq.xml
+C:\Users\Acer\Documents\Visual Studio 2010\WebSites\CoffeeApp\CoffeeApp.Domain\bin\Release\Ninject.pdb
+C:\Users\Acer\Documents\Visual Studio 2010\WebSites\CoffeeApp\CoffeeApp.Domain\bin\Release\Ninject.xml
+C:\Users\Acer\Documents\Visual Studio 2010\WebSites\CoffeeApp\CoffeeApp.Domain\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Acer\Documents\Visual Studio 2010\WebSites\CoffeeApp\CoffeeApp.Domain\obj\Release\CoffeeStore.Domain.dll
+C:\Users\Acer\Documents\Visual Studio 2010\WebSites\CoffeeApp\CoffeeApp.Domain\obj\Release\CoffeeStore.Domain.pdb

@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <link rel="shortcut icon" href="@Url.Content("../../Content/themes/base/images/coffeicon.ico")"/>
+    <link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/themes/base/jquery-ui.css")" rel="stylesheet" type="text/css" />
+    <script src="@Url.Content("~/Scripts/jquery-1.9.1.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/jquery-ui-1.10.1.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/coffeeApp.js?version=1.0.0.7")" type="text/javascript"></script>
+</head>
+
+<body>
+    <div id ="wrapper">
+        <div id = "header"> 
+            <a href="@Url.Action("List","Coffee")"><img id = "logo" src="@Url.Content("../../Content/themes/base/images/Logo.png")" alt=""/></a>
+                <div id = "greeting">Welcome to Coffee Shop!</div>
+        </div>
+
+        <div id = "share">
+            @Html.Action("Discount","Coffee")
+        </div>
+
+        <div id = "content">
+            <div id = "order_details">
+                <div id = "checkout">
+                    <span id ="chout_msg">@Html.Action("Summary", "Cart")</span>
+                    <a href="@Url.Action("Index", "Cart", new { returnUrl = Request.Url.PathAndQuery})"><button id="chout_but" class="coffeebutton">Checkout</button></a>
+                </div>
+            </div>
+            <div id = "coffee_list_wrapper">
+                @RenderBody()
+            </div>
+        </div>
+
+        <div id = "footer">
+        </div>
+    </div>
+</body>
+</html>

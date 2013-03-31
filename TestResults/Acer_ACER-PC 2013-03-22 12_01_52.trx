@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="33f412f2-77a7-4dde-b010-f00bc098304c" name="Acer@ACER-PC 2013-03-22 12:01:52" runUser="Acer-PC\Acer" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="2bf091c0-cec2-4527-808f-780a2e87cadf">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Acer_ACER-PC 2013-03-22 12_01_52">
+      <DeploymentItem filename="C:\Users\Acer\Documents\Visual Studio 2010\WebSites\CoffeeApp\CoffeeApp.UnitTests\bin\Debug\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Users\Acer\Documents\Visual Studio 2010\WebSites\CoffeeApp\CoffeeApp.Domain\bin\Debug\CoffeeStore.Domain.dll" />
+      <DeploymentItem filename="C:\Users\Acer\Documents\Visual Studio 2010\WebSites\CoffeeApp\CoffeeApp.UnitTests\bin\Debug\Moq.dll" />
+      <DeploymentItem filename="C:\Users\Acer\Documents\Visual Studio 2010\WebSites\CoffeeApp\CoffeeApp.UnitTests\bin\Debug\Ninject.dll" />
+      <DeploymentItem filename="C:\Users\Acer\Documents\Visual Studio 2010\WebSites\CoffeeApp\CoffeeApp.Web\bin\CoffeeApp.Web.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-03-22T12:01:52.5598754+03:00" queuing="2013-03-22T12:01:54.2449718+03:00" start="2013-03-22T12:01:54.5069868+03:00" finish="2013-03-22T12:02:10.1208799+03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Can_Retrive_From_Coffee_Discount" storage="c:\users\acer\documents\visual studio 2010\websites\coffeeapp\coffeeapp.unittests\bin\debug\coffeeapp.unittests.dll" id="95193e15-b675-c78e-29a3-6f87b9728100">
+      <Execution id="142593e6-4983-4d89-8600-259a629571ed" />
+      <TestMethod codeBase="C:/Users/Acer/Documents/Visual Studio 2010/WebSites/CoffeeApp/CoffeeApp.UnitTests/bin/Debug/CoffeeApp.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CoffeeApp.UnitTests.UnitTest1, CoffeeApp.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_Retrive_From_Coffee_Discount" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="95193e15-b675-c78e-29a3-6f87b9728100" executionId="142593e6-4983-4d89-8600-259a629571ed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="142593e6-4983-4d89-8600-259a629571ed" testId="95193e15-b675-c78e-29a3-6f87b9728100" testName="Can_Retrive_From_Coffee_Discount" computerName="ACER-PC" duration="00:00:13.4429450" startTime="2013-03-22T12:01:54.7169988+03:00" endTime="2013-03-22T12:02:09.8938669+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="142593e6-4983-4d89-8600-259a629571ed">
+    </UnitTestResult>
+  </Results>
+</TestRun>

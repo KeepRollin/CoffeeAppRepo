@@ -1,0 +1,280 @@
+body
+{
+    font-size: .85em;
+    font-family: "Trebuchet MS", Verdana, Helvetica, Sans-Serif;
+    color: #232323;
+    background-color: #fff;
+}
+
+header,
+footer,
+nav,
+section {
+    display: block;
+}
+
+/* Styles for basic forms
+-----------------------------------------------------------*/
+
+fieldset 
+{
+    border:1px solid #ddd;
+    padding:0 1.4em 1.4em 1.4em;
+    margin:0 0 1.5em 0;
+}
+
+legend 
+{
+    font-size:1.2em;
+    font-weight: bold;
+}
+
+textarea 
+{
+    min-height: 75px;
+}
+
+.editor-label 
+{
+    margin: 1em 0 0 0;
+}
+
+.editor-field 
+{
+    margin:0.5em 0 0 0;
+}
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error
+{
+    color: #ff0000;
+}
+
+.field-validation-valid
+{
+    display: none;
+}
+
+.input-validation-error
+{
+    border: 1px solid #ff0000;
+    background-color: #ffeeee;
+}
+
+.validation-summary-errors
+{
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.validation-summary-valid
+{
+    display: none;
+}
+/* My own verstka 
+---------------------------------------*/
+
+/*Fonts
+---------------------------------------*/
+@font-face
+{
+font-family: Connie;
+src: url('fonts/Connie-Regular.ttf'),
+     url('fonts/Connie-Regular.eot'); /* IE9+ */
+font-weight:bold;
+}
+
+/* General
+---------------------------------------*/
+#header, #share, #footer, #content 
+{
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+}
+body
+{
+    background-color: #FFCC66;
+}
+.coffeebutton 
+{
+    border: .2em solid #FFCC66;
+    background-color: #FFFFCC !important;
+    font-weight: bold;
+    border-radius: .2em;
+    color: #5A3823;
+}
+.coffeebutton:hover 
+{
+    background-color: #FFCC66 !important;
+    cursor:pointer;
+}
+
+/* #header
+---------------------------------------*/
+#header
+{
+    font-family: Connie;
+    font-size: 2.5em;
+    color: White;
+    background-image: url('themes/base/images/my_background.png');
+    margin-bottom: 0.1em;
+    -webkit-border-top-left-radius: 12px;
+    -webkit-border-top-right-radius: 12px;
+    -moz-border-radius-topleft: 12px;
+    -moz-border-radius-topright: 12px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+#logo
+{
+    height: 75%;
+    margin-left: 20%;
+    margin-right: 10%;
+    display:inline;  
+    float: left;
+}
+#greeting
+{
+    height: 120px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/* #Share
+---------------------------------*/
+#share
+{
+    text-align: center;
+    color: White;
+    background-image: url('themes/base/images/my_background.png');
+    font-size: 1.5em;
+    margin-bottom: 0.15em;
+    font-family: Arial;
+}
+/* #Content
+-------------------------------*/
+#content
+{
+    background-color: #FFFFCC;
+    color: #5A3823;
+    margin-bottom: 0.2em;
+}
+.coffee_header
+{
+    text-align: left;
+}
+#order_details
+{
+    height: 3em;
+    border-bottom: 1px solid #5A3823;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+#checkout
+{
+    float: left;
+    background-color: #652800;
+    height: 2em;
+    padding: .2em .5em;
+    margin-top: .25em;
+    color: White;
+    width: 25em;
+    text-align:center;
+}
+#chout_msg
+{
+    vertical-align: middle;
+    padding: .1.5em .5em;
+}
+#chout_but
+{
+    float: left;
+    width: 45%;
+    vertical-align: middle;
+}
+#coffee_list_wrapper
+{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.ui-icon.ui-icon-close.red
+{
+    background-image: url('themes/base/images/ui-icons_cd0a0a_256x240.png');
+}
+.ui-icon.ui-icon-trash.red
+{
+    background-image: url('themes/base/images/ui-icons_cd0a0a_256x240.png');
+}
+.ui-icon.ui-icon-check.green
+{
+    background-image: url('themes/base/images/ui-icons_0ad10a_256x240.png');
+}
+.add
+{
+    width: 2em;
+    height: 2em;
+    float: left;
+    border: .2em solid #FFCC66;
+    border-radius: .5em;
+}
+.add:hover{
+    background-color: #FFCC66;
+}
+.add input[type="number"]
+{   
+    background-color: #FFFFCC;
+    border: 1px solid black;
+    padding-top: .2em;
+}
+.add input[type="number"]:focus
+{
+    background-color: #FFFFCC;
+}
+.add button
+{
+    padding-top: .2em;
+    background-color: #FFFFCC;
+    border: 1px solid black;
+    border-radius: .2em;
+    cursor: pointer;
+}
+.delete button
+{
+    margin-left: 1em;
+    background-color: #FFFFCC;
+    width: 2em;
+    height: 2em;
+    float: left;
+    border: .2em solid #FFCC66;
+    border-radius: .5em;
+    cursor: pointer;
+}
+.delete button:hover{
+    background-color: #FFCC66;
+}
+TABLE#coffee_list
+{
+    border-collapse: collapse;
+    width: 60%;
+}
+TABLE#coffee_list TFOOT TR 
+{
+     border-top: 2px solid #5A3823;
+}
+/* #Footer
+-------------------------------*/
+#footer
+{
+    background-image: url('themes/base/images/my_background.png');
+    height: 50px;
+    
+    -webkit-border-bottom-left-radius: 12px;
+    -webkit-border-bottom-right-radius: 12px;
+    -moz-border-radius-bottomleft: 12px;
+    -moz-border-radius-bottomright: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}

@@ -1,0 +1,25 @@
+﻿@model CoffeeApp.Domain.Entities.Cart
+@{
+    Layout = null;
+}
+@foreach (var item in Model.Lines)
+{
+    <tr id="contained_items">
+        <td align ="center">@Html.DisplayFor(m => item.Quantity)
+        </td>
+        <td align ="left">@Html.DisplayFor(m => item.Coffee.Name)
+        </td>
+        <td align ="right">@Html.DisplayFor(m => item.Coffee.Price)
+        </td>
+        <td align ="right">@item.LinePrice.ToString("c")
+        </td>
+        <td>
+            <form class="delete" action="/Cart/removeFromCart" method="post">
+            <input type='hidden' name='coffeeId' value='@item.Coffee.CoffeeID' />
+            
+            <button type="submit">
+                <span class="ui-icon ui-icon-trash" style="margin: -.2em"></span></button>
+            </form>
+        </td>
+    </tr>
+}

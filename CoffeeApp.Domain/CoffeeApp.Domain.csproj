@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CA947BC6-B995-40E5-AF23-ACA45023B3BA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CoffeeApp.Domain</RootNamespace>
+    <AssemblyName>CoffeeStore.Domain</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Moq">
+      <HintPath>..\packages\Moq.4.0.10827\lib\NET40\Moq.dll</HintPath>
+    </Reference>
+    <Reference Include="Ninject">
+      <HintPath>..\packages\Ninject.3.0.1.10\lib\net40\Ninject.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Web.Mvc, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Abstract\ICoffeeRepository.cs" />
+    <Compile Include="Abstract\IConfigurationRepository.cs" />
+    <Compile Include="Abstract\IOrderRepository.cs" />
+    <Compile Include="Concrete\ADO\ADOCoffeeRepository.cs" />
+    <Compile Include="Concrete\ADO\ADOConfigurationRepository.cs" />
+    <Compile Include="Concrete\ADODbContext.cs" />
+    <Compile Include="Concrete\EF\EFCoffeeRepository.cs" />
+    <Compile Include="Concrete\EF\EFConfigurationRepository.cs" />
+    <Compile Include="Concrete\EFDbContext.cs" />
+    <Compile Include="Entities\Coffee.cs" />
+    <Compile Include="Entities\Configuration.cs" />
+    <Compile Include="Entities\Order.cs" />
+    <Compile Include="Entities\Cart.cs" />
+    <Compile Include="Migrations\201303211103188_UpdateConfigurationId.cs" />
+    <Compile Include="Migrations\201303211103188_UpdateConfigurationId.Designer.cs">
+      <DependentUpon>201303211103188_UpdateConfigurationId.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201303240940495_AddOrderClass.cs" />
+    <Compile Include="Migrations\201303240940495_AddOrderClass.Designer.cs">
+      <DependentUpon>201303240940495_AddOrderClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201303241152330_updateOrderClass.cs" />
+    <Compile Include="Migrations\201303241152330_updateOrderClass.Designer.cs">
+      <DependentUpon>201303241152330_updateOrderClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Infrastructure\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201303211103188_UpdateConfigurationId.resx">
+      <DependentUpon>201303211103188_UpdateConfigurationId.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201303240940495_AddOrderClass.resx">
+      <DependentUpon>201303240940495_AddOrderClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201303241152330_updateOrderClass.resx">
+      <DependentUpon>201303241152330_updateOrderClass.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

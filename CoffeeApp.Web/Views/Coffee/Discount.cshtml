@@ -1,0 +1,9 @@
+﻿@model IEnumerable<CoffeeApp.Domain.Entities.Configuration>
+@using CoffeeApp.Web.Resources.Views.Shared;
+@{
+    int n = Model.SingleOrDefault(c => c.Name.Trim() =="n").Value;
+    int m = Model.SingleOrDefault(c => c.Name.Trim() == "m").Value;
+    int x = Model.SingleOrDefault(c => c.Name.Trim() == "x").Value;
+    <text>@String.Format(TodaysOfferRes.Offer, n).ToString()</text>
+    <text>@String.Format(TodaysOfferRes.Delivery, x,m).ToString()</text>
+}

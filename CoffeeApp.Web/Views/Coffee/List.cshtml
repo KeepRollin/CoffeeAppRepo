@@ -1,0 +1,23 @@
+﻿@model IEnumerable<CoffeeApp.Domain.Entities.Coffee>
+
+@{
+    ViewBag.Title = "Coffee Shop";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<table id = "coffee_list">
+    <tr class = "coffee_header">
+        <th width="45%">Name</th>
+        <th width="10%">Price</th>
+        <th width="45%"></th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        Html.RenderPartial("CoffeeSummary", item);
+    }
+</table>
+<script type="text/javascript">
+    $(document).ready(function (event) {        
+        $(".add").on('click', handler);
+    });
+    </script>

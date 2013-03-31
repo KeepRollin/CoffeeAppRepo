@@ -1,0 +1,17 @@
+C:\Users\Acer\Documents\Visual Studio 2010\WebSites\CoffeeApp\CoffeeApp.UnitTests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Acer\Documents\Visual Studio 2010\WebSites\CoffeeApp\CoffeeApp.UnitTests\bin\Debug\CoffeeApp.UnitTests.dll
+C:\Users\Acer\Documents\Visual Studio 2010\WebSites\CoffeeApp\CoffeeApp.UnitTests\bin\Debug\CoffeeApp.UnitTests.pdb
+C:\Users\Acer\Documents\Visual Studio 2010\WebSites\CoffeeApp\CoffeeApp.UnitTests\bin\Debug\CoffeeApp.Web.dll
+C:\Users\Acer\Documents\Visual Studio 2010\WebSites\CoffeeApp\CoffeeApp.UnitTests\bin\Debug\CoffeeStore.Domain.dll
+C:\Users\Acer\Documents\Visual Studio 2010\WebSites\CoffeeApp\CoffeeApp.UnitTests\bin\Debug\EntityFramework.dll
+C:\Users\Acer\Documents\Visual Studio 2010\WebSites\CoffeeApp\CoffeeApp.UnitTests\bin\Debug\Ninject.dll
+C:\Users\Acer\Documents\Visual Studio 2010\WebSites\CoffeeApp\CoffeeApp.UnitTests\bin\Debug\Moq.dll
+C:\Users\Acer\Documents\Visual Studio 2010\WebSites\CoffeeApp\CoffeeApp.UnitTests\bin\Debug\CoffeeStore.Domain.pdb
+C:\Users\Acer\Documents\Visual Studio 2010\WebSites\CoffeeApp\CoffeeApp.UnitTests\bin\Debug\CoffeeApp.Web.pdb
+C:\Users\Acer\Documents\Visual Studio 2010\WebSites\CoffeeApp\CoffeeApp.UnitTests\bin\Debug\EntityFramework.xml
+C:\Users\Acer\Documents\Visual Studio 2010\WebSites\CoffeeApp\CoffeeApp.UnitTests\bin\Debug\Ninject.pdb
+C:\Users\Acer\Documents\Visual Studio 2010\WebSites\CoffeeApp\CoffeeApp.UnitTests\bin\Debug\Ninject.xml
+C:\Users\Acer\Documents\Visual Studio 2010\WebSites\CoffeeApp\CoffeeApp.UnitTests\bin\Debug\Moq.pdb
+C:\Users\Acer\Documents\Visual Studio 2010\WebSites\CoffeeApp\CoffeeApp.UnitTests\bin\Debug\Moq.xml
+C:\Users\Acer\Documents\Visual Studio 2010\WebSites\CoffeeApp\CoffeeApp.UnitTests\obj\Debug\CoffeeApp.UnitTests.dll
+C:\Users\Acer\Documents\Visual Studio 2010\WebSites\CoffeeApp\CoffeeApp.UnitTests\obj\Debug\CoffeeApp.UnitTests.pdb

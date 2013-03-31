@@ -1,0 +1,17 @@
+﻿@model CoffeeApp.Web.Models.ModelViews.CartTotalModelView
+@{
+    Layout = null;
+}
+@if(Model.Cart.Lines.Count() == 0)
+{
+
+    <text>
+        Your cart is empty
+    </text>
+}
+else
+{
+    <text>
+        @Model.Cart.Lines.Sum(x => x.Quantity) item(s), total is @Model.Cart.CalculateTotal(Model.X, Model.M).ToString("c")
+    </text>
+}

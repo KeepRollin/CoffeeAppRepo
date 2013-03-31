@@ -1,0 +1,41 @@
+﻿@model CoffeeApp.Web.Models.ModelViews.CartModelView
+@{
+    ViewBag.Title = "Your cart";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<table id="coffee_list">
+    <thead>
+        <tr class="coffee_header">
+            <th width="10%" align="center">
+                Quantity
+            </th>
+            <th width="35%" align="left">
+                Name
+            </th>
+            <th width="20%" align="right">
+                Price
+            </th>
+            <th width="20%" align="right">
+                Subtotal
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @{Html.RenderPartial("CartItems", Model.Cart);}
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="3" align="right"><strong>Total</strong></td>
+            <td id="total_msg" align="right">
+                <strong>@Html.Action("Summary", "Cart")</strong>
+            </td>
+        </tr>
+    </tfoot>
+</table>
+<a href = "@Url.Action("Index","Order")"><div style="margin: auto; width: 60%"><button class="coffeebutton">Checkout now</button></a>
+<a href = "@Model.returnUrl"><button class="coffeebutton">Return to shopping</button></div></a>
+<script type="text/javascript">
+    $(document).ready(function (event) {
+        $(".delete").on('click', deletehandler);
+    });
+</script>

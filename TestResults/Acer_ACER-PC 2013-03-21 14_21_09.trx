@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="0ef8f8f7-d06d-42d4-8e27-d29de72ebadc" name="Acer@ACER-PC 2013-03-21 14:21:09" runUser="Acer-PC\Acer" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="2bf091c0-cec2-4527-808f-780a2e87cadf">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Acer_ACER-PC 2013-03-21 14_21_09">
+      <DeploymentItem filename="C:\Users\Acer\Documents\Visual Studio 2010\WebSites\CoffeeApp\CoffeeApp.UnitTests\bin\Debug\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Users\Acer\Documents\Visual Studio 2010\WebSites\CoffeeApp\CoffeeApp.Domain\bin\Debug\CoffeeStore.Domain.dll" />
+      <DeploymentItem filename="C:\Users\Acer\Documents\Visual Studio 2010\WebSites\CoffeeApp\CoffeeApp.UnitTests\bin\Debug\Moq.dll" />
+      <DeploymentItem filename="C:\Users\Acer\Documents\Visual Studio 2010\WebSites\CoffeeApp\CoffeeApp.UnitTests\bin\Debug\Ninject.dll" />
+      <DeploymentItem filename="C:\Users\Acer\Documents\Visual Studio 2010\WebSites\CoffeeApp\CoffeeApp.Web\bin\CoffeeApp.Web.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-03-21T14:21:09.4544092+03:00" queuing="2013-03-21T14:21:09.4624097+03:00" start="2013-03-21T14:21:09.5044121+03:00" finish="2013-03-21T14:21:13.0256135+03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Can_Retrieve_Coffee_from_EF" storage="c:\users\acer\documents\visual studio 2010\websites\coffeeapp\coffeeapp.unittests\bin\debug\coffeeapp.unittests.dll" id="16213258-2dcd-6348-7a3d-6def85afe508">
+      <Execution id="a577ba7e-0f77-418c-8c03-ad78c3440832" />
+      <TestMethod codeBase="C:/Users/Acer/Documents/Visual Studio 2010/WebSites/CoffeeApp/CoffeeApp.UnitTests/bin/Debug/CoffeeApp.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CoffeeApp.UnitTests.UnitTest1, CoffeeApp.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_Retrieve_Coffee_from_EF" />
+    </UnitTest>
+    <UnitTest name="Can_Retrieve_Configuration_from_EF" storage="c:\users\acer\documents\visual studio 2010\websites\coffeeapp\coffeeapp.unittests\bin\debug\coffeeapp.unittests.dll" id="ad8d46b0-9ad6-e4c4-90d5-8a708038937b">
+      <Execution id="3af887ea-ad8d-4d6c-ac96-07b67dd01ba5" />
+      <TestMethod codeBase="C:/Users/Acer/Documents/Visual Studio 2010/WebSites/CoffeeApp/CoffeeApp.UnitTests/bin/Debug/CoffeeApp.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CoffeeApp.UnitTests.UnitTest1, CoffeeApp.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_Retrieve_Configuration_from_EF" />
+    </UnitTest>
+    <UnitTest name="Can_Retrieve_Coffee_from_Coffees_Moq" storage="c:\users\acer\documents\visual studio 2010\websites\coffeeapp\coffeeapp.unittests\bin\debug\coffeeapp.unittests.dll" id="d62de014-2fbb-f20a-241f-2641abf36cb8">
+      <Execution id="b839dfe2-d444-4256-a15f-19e1b285068e" />
+      <TestMethod codeBase="C:/Users/Acer/Documents/Visual Studio 2010/WebSites/CoffeeApp/CoffeeApp.UnitTests/bin/Debug/CoffeeApp.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CoffeeApp.UnitTests.UnitTest1, CoffeeApp.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_Retrieve_Coffee_from_Coffees_Moq" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="16213258-2dcd-6348-7a3d-6def85afe508" executionId="a577ba7e-0f77-418c-8c03-ad78c3440832" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ad8d46b0-9ad6-e4c4-90d5-8a708038937b" executionId="3af887ea-ad8d-4d6c-ac96-07b67dd01ba5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d62de014-2fbb-f20a-241f-2641abf36cb8" executionId="b839dfe2-d444-4256-a15f-19e1b285068e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a577ba7e-0f77-418c-8c03-ad78c3440832" testId="16213258-2dcd-6348-7a3d-6def85afe508" testName="Can_Retrieve_Coffee_from_EF" computerName="ACER-PC" duration="00:00:01.2669031" startTime="2013-03-21T14:21:09.5314136+03:00" endTime="2013-03-21T14:21:11.1625069+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a577ba7e-0f77-418c-8c03-ad78c3440832">
+    </UnitTestResult>
+    <UnitTestResult executionId="3af887ea-ad8d-4d6c-ac96-07b67dd01ba5" testId="ad8d46b0-9ad6-e4c4-90d5-8a708038937b" testName="Can_Retrieve_Configuration_from_EF" computerName="ACER-PC" duration="00:00:00.0223141" startTime="2013-03-21T14:21:11.1655071+03:00" endTime="2013-03-21T14:21:11.1965089+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3af887ea-ad8d-4d6c-ac96-07b67dd01ba5">
+    </UnitTestResult>
+    <UnitTestResult executionId="b839dfe2-d444-4256-a15f-19e1b285068e" testId="d62de014-2fbb-f20a-241f-2641abf36cb8" testName="Can_Retrieve_Coffee_from_Coffees_Moq" computerName="ACER-PC" duration="00:00:00.2786755" startTime="2013-03-21T14:21:11.1985090+03:00" endTime="2013-03-21T14:21:11.4855254+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b839dfe2-d444-4256-a15f-19e1b285068e">
+    </UnitTestResult>
+  </Results>
+</TestRun>

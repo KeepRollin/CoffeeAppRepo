@@ -1,0 +1,15 @@
+﻿@model CoffeeApp.Domain.Entities.Coffee
+
+<tr class = "coffee_item">
+    <td>@Html.DisplayFor(m => m.Name)</td>
+    <td>@Html.DisplayFor(m => m.Price)</td>
+    <td>
+        @using (Html.BeginForm("addToCart","Cart",FormMethod.Post,new { @class = "add"}))
+        {
+            <span class="ui-icon ui-icon-plus" style="margin: .4em"></span>
+            <input type='number' name='quantity' min='1' max='10' value='1' style="display:none"/>
+            <input type='hidden' name='coffeeId' value='@Model.CoffeeID'/>           
+        }
+    </td>
+    
+</tr>
