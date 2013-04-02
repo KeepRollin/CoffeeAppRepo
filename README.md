@@ -1,1 +1,1 @@
-This is first attempt to use git and mvc 3 app.
+This is first attempt to deploy mvc3 app on github
